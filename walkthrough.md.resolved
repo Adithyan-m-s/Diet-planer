@@ -1,0 +1,29 @@
+# Walkthrough - Fat Loss Diet Plan Creator
+
+I have built a modern, clean, and fully functional web application for creating Kerala-style fat loss diet plans.
+
+## Features
+- **Personalized Calculations**: Uses the Mifflin-St Jeor equation to calculate BMR and TEE based on age, weight, height, and activity level.
+- **Goal-Oriented**: Adjusts calorie targets based on the user's preferred fat loss speed (0.25kg, 0.5kg, or 1kg per week).
+- **Kerala Cuisine Focus**: Generates a 7-day meal plan featuring popular Kerala dishes for breakfast, lunch, and dinner.
+- **Glassmorphic Design**: A premium, modern UI with floating cards, background animations, and responsive layouts.
+- **Privacy-First**: No login required; everything runs locally in the browser.
+
+## Visual Overview
+
+````carousel
+![Initial Input Form](file:///C:/Users/aaadi/.gemini/antigravity/brain/0a697849-807f-4878-9462-09dce2fb9df9/initial_form_state_1771524044740.png)
+<!-- slide -->
+![Diet Plan Results](file:///C:/Users/aaadi/.gemini/antigravity/brain/0a697849-807f-4878-9462-09dce2fb9df9/final_diet_plan_results_1771524062986.png)
+````
+
+## Files Implemented
+- [index.html](file:///c:/Users/aaadi/OneDrive/Desktop/webpage%20desining/diet%20planer/index.html): Structure and semantics.
+- [index.css](file:///c:/Users/aaadi/OneDrive/Desktop/webpage%20desining/diet%20planer/index.css): Modern glassmorphic styling and animations.
+- [app.js](file:///c:/Users/aaadi/OneDrive/Desktop/webpage%20desining/diet%20planer/app.js): Calculation logic and meal database.
+
+## Verification Results
+- **Calorie Accuracy**: Verified that deficits are applied correctly (e.g., ~500 kcal for 0.5kg/week loss).
+- **Meal Variety**: Checked that Veg and Non-Veg preferences correctly pivot the meal suggestions.
+- **UI Responsiveness**: The app is mobile-friendly with a flexible grid layout.
+- **Functionality**: "Regenerate" and "Back to Inputs" buttons work seamlessly.
